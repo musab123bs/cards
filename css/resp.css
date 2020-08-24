@@ -1,0 +1,106 @@
+@media only screen and (max-width: 425px){
+    html body .wrapper {
+        height: 780px !important;
+        background-position: left !important;
+    }
+    html body .wrapper .header {
+        flex-direction: column;
+    }
+    html body .wrapper .header .logo {
+        width: 40% !important;
+        margin: 0 !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+    }
+    html body .wrapper .header .menu .menu-list li a {
+        padding: 0 !important;
+        font-size: 0.91rem !important;
+        font-weight: 900;
+    }
+    
+    .banner {
+            grid-template-areas:
+            'player-stats-1 player-stats-2'
+            'player-stats-3 player-stats-4' !important;
+            padding-left: 35px;
+            padding-right: 35px;
+    }
+.player-stats-3 {
+    padding-top: 0px !important;
+}
+.player-stats-4 {
+    padding-top: 0px !important;
+}
+.banner .player-profile .player-img {
+    width: 100px !important ;
+    height: 100px !important    ;
+}
+.banner .player-profile .player-img img {
+    width: 100px !important;
+}
+.banner .player-profile .score p {
+    font-size: 1.5rem !important;
+}
+.banner .player-profile .score {
+    margin-top: 35px !important;
+}
+.banner .player-profile .score p:nth-child(2) {
+    margin-top: -20px;
+}
+html body .wrapper .heading h3 {
+    font-size: 1.5rem !important;
+    padding-top: 11px;
+}
+html body .wrapper .header .menu .menu-list {
+    float: none !important;
+    display: flex;
+}
+html body .wrapper .header .menu .menu-list li ul li a {
+    font-size: 0.72rem !important;
+}
+html body .wrapper .header .menu .menu-list li ul li {
+    height: 28px !important;
+    line-height: 28px;
+}
+html body .wrapper marquee {padding-right: 15px;padding-left: 15px;
+}
+html body .wrapper marquee .black-queen .main-queen .img-holder {
+    margin-top: 0px !important;
+}
+html body .header .menu .menu-list {
+    display: flex;
+}
+html body .header .menu .menu-list li a {
+    font-size: 1.02rem !important;
+}
+html body .header {
+    flex-direction: column;
+}
+html body .black-queen-headimg h1 {
+    font-size: 3rem !important;
+    padding-top: 16px !important;
+}
+html body .header .menu .menu-list li {
+    width: 100px !important;
+}
+.black-queen .main-queen .img-holder {
+    padding-top: 10px !important;
+}
+html body .header .logo img {
+    width: 58% !important;
+    padding-top: 4px;
+    margin: 0;
+}
+html body .header .menu .menu-list li ul li a {
+    font-size: 0.80rem !important;
+}
+html body .header .menu .menu-list li:hover ul li {
+    height: 25px;
+}
+html body .header .menu .menu-list li ul {
+    position: absolute;
+    top: 72px;
+}
+}
