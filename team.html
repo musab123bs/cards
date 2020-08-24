@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pattay</title>
+        <script
+      src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+        <link rel="stylesheet" href="css/resp.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <style>
+        .banner{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas:
+        'player-stats-1 player-stats-3'
+        'player-stats-2 player-stats-4' !important;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 1px;
+}
+    </style>
+<body>
+
+        <div class="team-banner">
+            <div class="header">
+                <div class="logo animate__animated animate__bounce animate__infinite">
+                    <img src="img/logo.png" alt="logo">
+                </div>
+                <div class="menu">
+                    <ul class="menu-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="stat.html">Stats</a></li>
+                    </ul>
+                </div>
+            </div>
+            <marquee behavior="slide" direction="down" scrollamount="50">
+                <div class="banner">
+                    <div class="player-stats-1 text-center bg-red">
+                        <div class="player-profile">
+                            <div class="player-img">
+                                <img src="img/musab.jpg" alt="musab">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="player-stats-3 text-center bg-red">
+                        <div class="player-profile">
+                            <div class="player-img">
+                                <img src="img/huzaifa.jpg" alt="huzaifa">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="player-stats-2 text-center bg-blue">
+                        <div class="player-profile">
+                            <div class="player-img">
+                                <img src="img/hassan.jpg" alt="hassan">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="player-stats-4 text-center bg-blue">
+                        <div class="player-profile">
+                            <div class="player-img">
+                                <img src="img/mohtashim.jpg" alt="mohtashim">
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </marquee>
+        </div>
+</body>
+</html>
