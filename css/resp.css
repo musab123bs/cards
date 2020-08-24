@@ -79,7 +79,7 @@ html body .header {
     flex-direction: column;
 }
 html body .black-queen-headimg h1 {
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
     padding-top: 16px !important;
 }
 html body .header .menu .menu-list li {
